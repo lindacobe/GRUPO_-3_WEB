@@ -1,0 +1,29 @@
+:root{
+    --blanco: #FFFFFF;
+    --rosa : #ce9cdc;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --verde: #D5EACE;
+    --letraTitulo: 'Krub', sans-serif;
+}
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color:var(--rosa);
+    font-family: 'Krub', sans-serif;
+}
+.titulo span {
+    font-size: 2rem;
+    color:aquamarine ;
+}
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin: 0 auto 0 auto;
+}
+.navegacion-principal {
+    background-color: var(--verde);
+}
